@@ -1,0 +1,141 @@
+
+body{
+  font-family: "Montserrat", sans-serif ;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background: rgb(11,11,36);
+  background: linear-gradient(90deg, rgba(11,11,36,1) 13%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 87%, rgba(150,180,186,1) 100%);
+}
+.add_btn{
+  position: fixed;
+  right: 2%;
+  top: 5%;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  color: green;
+}
+.montserrat-300 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-400 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-600 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.side-nav{
+  height: 100vh;
+  background-color:#0B0B24;
+  position: fixed;
+  left: 0;
+  display: block;
+  
+}
+.sn1section{
+  width: 100%;
+  height: 25%;
+
+}
+.logo{
+  width: 100%;
+    object-fit: contain;
+    aspect-ratio: 3 / 1.7;
+}
+.logo-sm{
+  width: 50%;
+    object-fit: contain;
+    aspect-ratio: 3 / 1.7;
+}
+
+.dishimg{
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 3/3;
+  height: 100%;
+}
+.avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  object-fit: cover;
+}
+.items{
+  width: 25%;
+  
+}
+.item-text{
+  font-size: medium;
+}
+.banner-1{
+  background-image: url('../src//components/Images/landingPage.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: grid;
+  place-items: center;
+}
+.banner-2{
+  background-image: url('./components//Images//menu\ banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.explore-btn{
+  width:30%; 
+  border-radius:28px;
+}
+.footer-logo{
+  width: 100%;
+  object-fit: cover;
+}
+
+.smallnav{
+  display: none;
+}
+.main-contenet{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.main-row{
+  width: 78%;
+  margin-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .smallnav{
+    display: block;
+  }
+  .side-nav{
+    display: none;
+  }
+  .main-contenet{
+    justify-content: center;
+  }
+  .add_btn{
+    right: 2%;
+    top: unset;
+    bottom: 1%;
+  }
+  .main-row{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  body{
+   
+    background: rgb(255, 255, 255);
+  }
+}
