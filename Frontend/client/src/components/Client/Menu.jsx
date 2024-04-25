@@ -35,7 +35,7 @@ function Menu() {
         }
         fetch()
         fetchData();
-    }, [search,backendUrl]);
+    }, [search, backendUrl]);
 //  console.log(search,'hello')
     const redirectToWhatsApp = (order) => {
         const phoneNumber = '+919778164782'; 
@@ -69,9 +69,9 @@ function Menu() {
                   
                </div>
                     {dishes.map((item, index) => (
-                        <div key={index} className="col-4">
+                        <div key={index} className="col-12 col-lg-4">
                             <div style={{ height: '50%', width: '100%' }}>
-                                <img className="dishimg" src={`http://localhost:8000/images/${item.image}`} alt="" />
+                                <img className="dishimg" src={`${backendUrl}/images/${item.image}`} alt="" />
                             </div>
                             <div style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                                 <h4 className='montserrat-400'>{item.dishes}</h4>

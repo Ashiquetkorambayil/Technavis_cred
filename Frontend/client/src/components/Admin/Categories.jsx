@@ -11,7 +11,7 @@ import SmallNav from './SmallNav';
 
 
 function Categories() {
-  // REACT_APP_TECHNAVIS_APP_BACKEND_URL=http://localhost:8000
+  
 
     const  backendUrl = process.env.REACT_APP_MACHINE_TEST_1_BACKEND_URL;
     const [uid, setUid] = useState('')

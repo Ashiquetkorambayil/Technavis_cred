@@ -16,6 +16,7 @@ function SideNav() {
                        {/* <Link style={{textDecoration:'none'}} to='/categories'><li className='py-3 text-light'>DASHBORD</li></Link>  */}
                        <Link style={{textDecoration:'none'}} to='/categories'><li className='py-3 text-light'>CATEGORIES</li></Link> 
                        <Link style={{textDecoration:'none'}} to='/dishes'><li className='py-3 text-light'>ITEMS</li></Link> 
+                       <Link style={{textDecoration:'none'}} to='/'><li className='py-3 text-light'>To client side</li></Link> 
                     </ul>
                   </div>
                 </div>

@@ -16,10 +16,10 @@ function Aboutus() {
         <div className="container-fluid banner-4">
             <div className="container">
                 <div className="row py-5">
-                    <div className="col-5">
+                    <div className="col-12 col-lg-5">
                         <img style={{width:'100%', height:'100%'}} src={Image} alt="" />
                     </div>
-                    <div className="col-7">
+                    <div className="col-12 col-lg-7">
                         <h1 className='montserrat-400'>About Us</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet ex velit. Nulla ullamcorper tempor ornare. Nam cursus lectus in sem blandit, eget hendrerit eros vestibulum. Nam tempus orci non viverra molestie. Aenean auctor metus risus, id vehicula leo aliquam id. Vivamus dignissim sagittis rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed sapien auctor, accumsan ipsum nec, faucibus justo. Maecenas eu maximus neque, quis semper leo. Nam tincidunt eu magna at dignissim. Vestibulum condimentum, tortor eget euismod aliquet, odio orci semper est, eget scelerisque nisl nulla a libero.
 

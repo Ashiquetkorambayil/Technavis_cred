@@ -18,6 +18,9 @@ function SmallNav() {
             <Link style={{textDecoration:'none', color:'black'}} to='/dishes'>
             <Nav className='text-light' >Dishes</Nav>
             </Link>
+            <Link style={{textDecoration:'none', color:'black'}} to='/'>
+            <Nav className='text-light' >To client side</Nav>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

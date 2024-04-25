@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a6ccd6f2.css",
-    "main.js": "/static/js/main.0b700074.js",
+    "main.js": "/static/js/main.fbf4a3a3.js",
     "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
     "static/media/about us.jpg": "/static/media/about us.41ab1ea7c77fb7d441c3.jpg",
     "static/media/menu banner.jpg": "/static/media/menu banner.112ec6e757bd49fedf94.jpg",
@@ -9,11 +9,11 @@
     "static/media/technavis_logo.png": "/static/media/technavis_logo.e3a01ca21d3c0fc05c3c.png",
     "index.html": "/index.html",
     "main.a6ccd6f2.css.map": "/static/css/main.a6ccd6f2.css.map",
-    "main.0b700074.js.map": "/static/js/main.0b700074.js.map",
+    "main.fbf4a3a3.js.map": "/static/js/main.fbf4a3a3.js.map",
     "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6ccd6f2.css",
-    "static/js/main.0b700074.js"
+    "static/js/main.fbf4a3a3.js"
   ]
 }
