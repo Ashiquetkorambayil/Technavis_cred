@@ -16,8 +16,7 @@ function nav() {
           <Link style={{textDecoration:'none'}} to={'/'}><Nav.Link href="#home" className='text-light '>Home</Nav.Link></Link>  
           <Link style={{textDecoration:'none'}} to={'/menu'}><Nav.Link href="#home" className='text-light '>Menu</Nav.Link></Link>  
           <Link style={{textDecoration:'none'}} to={'/aboutus'}><Nav.Link href="#home" className='text-light '>About us</Nav.Link></Link>  
-          <Link style={{textDecoration:'none'}} to={'/dishes'}><Nav.Link href="#home" className='text-light '>To Admin Panel</Nav.Link></Link>  
-            
+          <Link style={{textDecoration:'none'}} to={'/dishes'}><Nav.Link href="#home" className='text-light '>To Dashbord</Nav.Link></Link>   
           </Nav>
         </Navbar.Collapse>
       </Container>
